@@ -1,0 +1,11 @@
+In order to run the application on the computer you must:
+
+1-Install Node.js
+2-For the commands:	
+	npm install express cors
+	npm install -D nodemon
+3-Open the file server.js and configure at the bottom the IP of the PC.
+4-Within Android Studio, you have to change 2 IP more:
+	Inside file network_security_config.xml (folder res/xml).
+	Inside file  AppModule (folder src/main/java/di)  
+5-Run the localserver and open the App on AndroidStudio or mobile phone under the same IP
