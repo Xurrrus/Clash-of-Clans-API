@@ -1,0 +1,14 @@
+query warrior($warriorID: ID!){
+
+    warrior(id: $warriorID) {
+        id
+        nom
+        tipusAtac
+        raresa
+        espai
+        velocitat
+        abast
+        imatge
+    }
+
+}

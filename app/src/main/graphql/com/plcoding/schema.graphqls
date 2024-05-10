@@ -1,0 +1,22 @@
+type Warrior {
+    id: ID!
+    nom: String!
+    tipusAtac: String!
+    raresa: String!
+    espai: Int!
+    velocitat: Int!
+    abast: String!
+    imatge: String!
+}
+
+type Query {
+    warriors: [Warrior!]!
+    warrior(id: ID!): Warrior
+}
+
+enum CacheControlSetup{
+    PUBLIC
+    PRIVATE
+}
+
+scalar Upload

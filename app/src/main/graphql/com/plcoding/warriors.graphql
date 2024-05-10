@@ -1,0 +1,17 @@
+query warriors{
+
+    warriors {
+        id
+        nom
+        tipusAtac
+        raresa
+        espai
+        velocitat
+        espai
+        abast
+        imatge
+
+    }
+
+
+}
